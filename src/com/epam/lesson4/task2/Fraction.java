@@ -10,11 +10,11 @@ public class Fraction {
     private final int m;
     private final int n;
 
-    Fraction(int m, int n){
+    Fraction(int m, int n){// а куда порерялся атрибут доступа у конструктора?
         this.m = m;
         this.n = n;
     }
-
+// и get-методов нет
     @Override
     public String toString(){
         return String.format("%d/%d", m, n);
